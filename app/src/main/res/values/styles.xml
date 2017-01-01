@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="ExpandTextView">
+        <attr name="is_expanded" format="boolean" />
+        <attr name="max_collapse_line" format="integer|reference"/>
+        <attr name="display_text_color" format="color|reference"/>
+        <attr name="operate_text_color" format="color|reference"/>
+        <attr name="display_text_size" format="dimension|reference" />
+        <attr name="operate_text_size" format="dimension|reference" />
+        <attr name="expand_text" format="string|reference" />
+        <attr name="collapse_text" format="string|reference" />
+        <attr name="operate_text_direction">
+            <enum name="left" value="0" />
+
+            <enum name="center" value="1" />
+
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
